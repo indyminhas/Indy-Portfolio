@@ -1,101 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>MyPortfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/portfolio.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><h3>Indy Minhas</h3></a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
+  </head>
 
-      <br>
-      <br>
+  <body class="d-flex flex-column">
 
-    <div class="container">
-      <div class="row">
-        <div class="col"><h3>Portfolio</h3></div>
-      </div>
-      <br>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Projects</h5>
-              <p class="card-text">Includes projects completed and projects in progress.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+    <main id="page-content">
+        <!-- navbar  -->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><h3>Inderjit Minhas</h3></a> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
           </div>
-        </div>
+        </nav>
         <br>
-
-      
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img src="../Indy-Portfolio/images/damiano-baschiera-d4feocYfzAM-unsplash (1).jpg" class="card-img-top" alt="pic of scenary">
-            <div class="card-body">
-              <h5 class="card-title">Photography</h5>
-              <p class="card-text">Some examples of my photography skills and editing skills.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="container">
+          <div class="row">
+            <div class="col"><h3>MyPortfolio</h3></div>
           </div>
-        </div>
-      </div>
-      <br>
+          <br>
+          <br>
+          <br>
 
+        <!-- cards -->
+        <section class="contianer">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="row justify-content-center card-deck">
+                        <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
+                            <div class="card-body">
+                            <h5 class="card-title">LinkedIn</h5>
+                            <p class="card-text">LinkedIn Profile w/Resume</p>
+                            <a href="www.linkedin.com/in/inderjit-minhas-021879141" class="btn btn-dark" target= "_blank">LinkedIn</a>
+                            </div>
+                        </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img src="../Indy-Portfolio/images/profile pic.jpeg" class="card-img-top" alt="profile pic">
-            <div class="card-body">
-              <h6 class="card-title">Linkedin</h6>
-              <p class="card-text">Link to my Linkedin. Includes resume and overall experience.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <br>
+                        <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
+                            <div class="card-body">
+                            <h5 class="card-title">GitHub</h5>
+                            <p class="card-text">Access to my GitHub Repos</p>
+                            <a href="https://github.com/indyminhas" class="btn btn-dark" target= "_blank">Git Hub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-center card-deck">
+                        <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
+                            <div class="card-body">
+                            <h5 class="card-title">Photography</h5>
+                            <p class="card-text">Some examples of my photography skills and editing skills.</p>
+                            <a href="" class="btn btn-dark" target= "_blank">myPhotos</a>
+                            </div>
+                        </div>
 
-        <div class="col-md-6">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-    </div>
+                        <div class="portfoliocards col-sm-5 card" style="width: 18rem;">
+                            <div class="card-body">
+                            <h5 class="card-title">IDK</h5>
+                            <p class="card-text">IDK what this is yet</p>
+                            <a href="" class="btn btn-dark" target= "_blank">IDK</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
     
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+
+    <!-- footer  -->
+    <footer id="sticky-footer" class="py-4">
+      <section class="container">
+        <small class="col-12">© 2020 Inderjit Minhas</small>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+
 </html>

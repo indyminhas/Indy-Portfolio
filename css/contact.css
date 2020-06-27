@@ -1,37 +1,65 @@
+/* ///CONTACT PAGE/// */
 
-body{
-    background:url("../images/clark-tibbs-YNsQJLOhEXk-unsplash.jpg")
+html, body {
+  background-color:lightblue;
+  height: 100%;
 }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #blue; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+.form-control, .form-group {
+  color:black;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
 
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+.formstyle {
+  border-color: white;
+  border-style: solid;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.text-area {
+  background-color: white;
+}
+
+.linkedin {
+  width: 50px;
+  height: auto;
+  border-color: white;
+  border-style: solid;
+}
+
+.linkedincenter {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.thankyou {
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  color: #324159;
+  margin-top: 50px
+}
+
+/* ///PAGE BOTTOM/// */
+
+.logoside {
+  height: 50vw;
+  display: flex;
+  justify-items: center;
+  margin:100px;
+  opacity: 50%;
+}
+
+/* ///FOOTER/// */
+
+footer {
+  text-align: center;
+  color: #c7c5cf;
+  background-color:black;
+}
+#sticky-footer {
+   flex-shrink: none;
+}

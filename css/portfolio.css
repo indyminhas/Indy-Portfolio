@@ -1,6 +1,75 @@
-
-
-body{
-    background:url("../images/fabrizio-conti-FsRI38AUqrY-unsplash.jpg")
-    
+/* ///PORTFOLIO PAGE STYLING/// */
+html, body {
+    background-color:lightblue;
+    height: 100%;
 }
+
+.pageheader {
+    text-align: center;
+    font-family:'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px black;
+    font-weight: 500;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    alt: "mountains";
+    background-attachment: scroll;
+    background-position: 50% 20%;
+    background-size: cover; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+.pagetext {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #324159;
+    padding: 30px;
+    position: relative;
+    top: 10px;
+}
+
+/* ///PORTFOLIO PAGE/// */
+
+/* card styling */
+
+.portfoliocards {
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+}
+
+.card-title, .card-text {
+    color: #324159;
+} 
+
+
+.btn {
+    color: black;
+    background-color:lightblue;
+    border-color: #324159;
+}
+
+/* ///PAGE BOTTOM/// */
+
+.logoside {
+    height: 50vw;
+    display: flex;
+    justify-items: center;
+    margin:100px;
+    opacity: 50%;
+  }
+/* ///FOOTER/// */
+
+footer {
+    text-align: center;
+    color: #c7c5cf;
+    background-color:black;
+}
+ #sticky-footer {
+     flex-shrink: none;
+ }

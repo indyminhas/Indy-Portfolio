@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indy's Portfolio</title>
-
+    <title>Inderjit Minhas Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="www.linkedin.com/in/inderjit-minhas-021879141">
-  
-<body>
+  </head>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><h3>Indy Minhas</h3></a> 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-           
-      </ul>
-    </div>
-  </nav>
-  
-<br>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4"><h3>About Me</h3></div>
-  </div>
-  <br>
-  <br>
-  <div class="row">
-    <br>
-    <br>
-    <div class="col-md-6"><img src="images/IMG_1214.JPG" width="" height='400' alt="Pic of Me"></div>
-    <div class="col-md-6">
-        <p>My name is Inderjit Minhas. I am originally from New Jersey that settled in Washington in 2013.
+  <body class="d-flex flex-column">
+    <main id="page-content">
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><h3>Inderjit Minhas</h3></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+               
+          </ul>
+        </div>
+      </nav>
+      <br>
+        <section class="container-fluid">
+          <figure class="hero row">
+            <h3 class="col">About Me</h3>
+        </figure>
+      </section>
+      <!-- hero  -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section class="container">
+        <!-- bio pic  -->
+        <figure class="row justify-content-center">
+          <div class="col-sm-4 col-md-8">
+            <img class="img-fluid" id="biopic" src="images/IMG_1214.JPG" alt="profilepic">
+          </div>
+        </figure>
+        <!-- bio text  -->
+        <article class="bio row justify-content-sm-center">  
+          <p class="col-sm-8"><span class="firstcharacter"></span> My name is Inderjit Minhas. I am originally from New Jersey that settled in Washington in 2013.
             I am a graduate from Washington State University with a Bachelor’s in Kinesiology and Minor in Psychology. 
-            I was part of the Washington State University Brew team of 2016, member and Vice Presidnet of the fraternity chapter Phi Sigma Kappa. I am expanding my skill sets into the coding world.
-            </p>
-        <p> Along with everything I have accomplished, I have many hobbies that I do during my free time.
-             Hobbies such as varies sports, outdoor activities, photography, cooking, and basically anything for an adrenaline junkie.</p>
-  </div>
-</div>
+            I was part of the Washington State University Crew team of 2016, member and Vice President of the fraternity chapter Phi Sigma Kappa. I am expanding my skill sets into the coding world.
+            Along with everything I have accomplished, I have many hobbies that I do during my free time.
+            Hobbies such as varies sports, outdoor activities, photography, cooking, and basically anything for an adrenaline junkie</p>
 
+        </article>
+      </section>
+    </main>
 
+    <!-- footer  -->
+    <footer id="sticky-footer" class="py-4">
+      <section class="container">
+        <small class="col-12">© 2020 Inderjit Minhas</small>
+      </section>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-    
-</body>
 </html>
